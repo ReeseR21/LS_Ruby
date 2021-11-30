@@ -31,8 +31,7 @@ nil # nil
 # Examples of float literals
 1.234, 234.5, 98.6
 
-a = puts "stuff"
-puts a
+
 
 
 
