@@ -39,10 +39,22 @@
 #   new_value
 # end
 
-def add(a, b)
-  a + b
+# def add(a, b)
+#   a + b
+# end
+
+# def subtract(a, b)
+#   a - b
+# end
+
+def first
+  puts "first method"
 end
 
-def subtract(a, b)
-  a - b
+def second
+  first
+  puts "second method"
 end
+
+second
+puts "main method"
