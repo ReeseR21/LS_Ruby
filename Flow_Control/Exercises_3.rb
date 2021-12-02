@@ -54,13 +54,20 @@
 # end
 
 #Problem 5
-def equal_to_four(x)
-  if x == 4
-    puts "YES!"
-  else
-    puts "Shucks!"
-  end
-end
+# def equal_to_four(x)
+#   if x == 4
+#     puts "YES!"
+#   else
+#     puts "Shucks!"
+#   end
+# end
 
-equal_to_four(5)
+# equal_to_four(5)
 
+#Problem 6
+(32 * 4) >= "129" #false/won't run
+847 == '847' #false
+'847' < '846' #false
+'847' > '846' #true
+'847' > '8478' #false
+'847' < '8478' #trues
