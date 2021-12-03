@@ -43,3 +43,33 @@
 # 3.times { |n| a = 3 }
 # puts a
 
+# a = puts "This will show in the terminal" #This will print to the terminal.
+# puts a #this will result in nothing being printed to the terminal.
+
+# puts "Welcome to the beginning Ruby course. Please register by answering the prompts as they appear."
+# puts "What is your first name?"
+# first_name = gets.chomp
+# # puts first_name
+# puts "Thank you. Please enter your last name below." 
+# last_name = gets.chomp
+# puts "Thank you #{first_name} #{last_name}."
+# puts "Please enter your date of birth."
+# birthday = gets.chomp
+# puts "Please enter your phone number."
+# phone = gets.chomp
+# puts "What state are you located?"
+# state = gets.chomp
+# puts "Thank you. Please review your information: Full name: #{first_name} #{last_name}, birthday: #{birthday}, phone: #{phone}, State: #{state}."
+
+# name = 'Christal Palace'
+def print_full_name(first_name, last_name)
+  name = first_name + ' ' + last_name
+  puts name
+end
+print_full_name 'China', 'Doll'
+# puts name
+
+name = 'Christal Palace'
+puts name
+
+print_full_name 'Daisy', 'Duck'
