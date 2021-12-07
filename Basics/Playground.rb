@@ -62,14 +62,21 @@
 # puts "Thank you. Please review your information: Full name: #{first_name} #{last_name}, birthday: #{birthday}, phone: #{phone}, State: #{state}."
 
 # name = 'Christal Palace'
-def print_full_name(first_name, last_name)
-  name = first_name + ' ' + last_name
-  puts name
-end
-print_full_name 'China', 'Doll'
+# def print_full_name(first_name, last_name)
+#   name = first_name + ' ' + last_name
+#   puts name
+# end
+# print_full_name 'China', 'Doll'
+# # puts name
+
+# name = 'Christal Palace'
 # puts name
 
-name = 'Christal Palace'
-puts name
+# print_full_name 'Daisy', 'Duck'
 
-print_full_name 'Daisy', 'Duck'
+def doubler(start)
+  puts start * 2
+  if start < 10
+    doubler(start * 2)
+  end
+end
