@@ -74,9 +74,35 @@
 
 # print_full_name 'Daisy', 'Duck'
 
-def doubler(start)
-  puts start * 2
-  if start < 10
-    doubler(start * 2)
-  end
-end
+# def doubler(start)
+#   puts start * 2
+#   if start < 10
+#     doubler(start * 2)
+#   end
+# end
+
+# def mutate(arr)
+#   arr.pop 
+# end
+
+# def not_mutate(arr)
+#   arr.select { |i| i > 3 }
+# end
+
+# a = [1, 2, 3, 4, 5, 6]
+# mutate(a)
+# not_mutate(a)
+
+# puts a
+
+# puts 'stuff'
+# a = puts "stuff"
+# puts a
+
+# def provide_something
+#   puts "Sure, I will provide you something."
+#   # "Nothing, ha, ha!"
+# end
+# p provide_something
+
+puts "John " + "Doe"

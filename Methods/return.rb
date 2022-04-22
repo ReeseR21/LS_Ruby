@@ -47,14 +47,14 @@
 #   a - b
 # end
 
-def first
-  puts "first method"
-end
+# def first
+#   puts "first method"
+# end
 
-def second
-  first
-  puts "second method"
-end
+# def second
+#   first
+#   puts "second method"
+# end
 
-second
-puts "main method"
+# second
+# puts "main method"

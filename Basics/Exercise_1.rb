@@ -16,6 +16,7 @@
 
 # To add a space, it can be added in with the value or within the puts as + ' ' +. There must be a space between the quotation marks. Another way is with string interpolation as seen in the 3rd example. With string interpolation, double quotations must be used...not single.
 
+# Problem 2
 # thousands = 3051 / 1000
 # hundreds = 3051 / 100 
 # can not do it like this. It will not work. It will return 30
@@ -28,6 +29,7 @@
 # puts "tens: #{tens}"
 # puts "ones: #{ones}"
 
+# Problem 3
 # movies = { the_shawshank_redemption: 1994,
 #            The_Life_Aquatic: 2004,
 #            The_Life_Ahead: 2020,
@@ -38,6 +40,7 @@
 # puts movies[:The_Life_Ahead]
 # puts movies[:Black_Panther]
 
+# Problem 4
 # dates = [1994, 2004, 2020, 2018]
 
 # puts dates[0]
@@ -45,11 +48,13 @@
 # puts dates[2]
 # puts dates[3]
 
+# Problem 5
 # puts 5*4*3*2*1
 # puts 6*5*4*3*2*1
 # puts 7*6*5*4*3*2*1
 # puts 8*7*6*5*4*3*2*1
 
+# Problem 6
 # puts 4.30*4.30
 # puts 4.30**2
 # puts 5.432*5.432
